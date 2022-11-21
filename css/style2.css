@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+#preloader {
+  background: #000000 url(../image/load-gif\ \(1\).gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.header {
+  background-color: #0A2640;
+  padding-bottom: 166px;
+}
+.header .navbar {
+  margin-bottom: 65px;
+  padding-top: 40px;
+}
+.header .navbar .container img {
+  height: 35px;
+  width: 145px;
+}
+.header .navbar .container .collapse .navbar-nav {
+  margin-right: 30px;
+}
+.header .navbar .container .collapse .navbar-nav .product {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+.header .navbar .container .collapse .navbar-nav .services {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+.header .navbar .container .collapse .navbar-nav .about {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+}
+.header .navbar .container .login {
+  width: 128px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+}
+.header .navbar .container .login:hover {
+  background-color: #03081f;
+  color: white;
+  border: 2px solid #000000;
+}
+.header .text-center .about-txt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #F1F1F1;
+}
+.header .text-center .about-header-text {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+.header .text-center .about-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #F1F1F1;
+}
+
+.userimg .container .row .userimg-left .userimg-1 {
+  width: 300px;
+  height: 285px;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: -100px;
+  border-radius: 24px;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 2s;
+}
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(10% - 10px);
+  }
+  100% {
+    left: 0;
+  }
+}
+.userimg .container .row .userimg-left .userimg-2 {
+  width: 300px;
+  height: 285px;
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: -100px;
+  border-radius: 24px;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 3s;
+  margin-top: 50px;
+}
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(10% - 10px);
+  }
+  100% {
+    left: 0;
+  }
+}
+.userimg .container .row .userimg-middle .userimgmiddle1 {
+  margin-top: -100px;
+  border-radius: 24px;
+}
+.userimg .container .row .userimg-right .userimg4 {
+  width: 300px;
+  height: 285px;
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: -100px;
+  border-radius: 24px;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 2s;
+  margin-left: 80px;
+}
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(10% - 10px);
+  }
+  100% {
+    left: 0;
+  }
+}
+.userimg .container .row .userimg-right .userimg5 {
+  width: 300px;
+  height: 285px;
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: -100px;
+  border-radius: 24px;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 3s;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(10% - 10px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.our-story {
+  margin-top: 12px;
+  margin-bottom: 96px;
+}
+.our-story .our-story-text {
+  margin-left: 200px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.our-story .our-story-header {
+  margin-left: 200px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+}
+.our-story .our-story-descrption {
+  margin-left: 200px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+
+.our-numbers {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0A2640;
+  margin-bottom: 96px;
+}
+.our-numbers .our-numbers-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #F1F1F1;
+}
+.our-numbers .our-numbers-header {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #F1F1F1;
+  font-family: "Open Sans", sans-serif;
+}
+.our-numbers .d-flex .onetwo {
+  margin-left: 190px;
+  margin-right: 140px;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 56px;
+  font-family: "Manrope", sans-serif;
+  color: #4FE9A4;
+}
+.our-numbers .d-flex .cool-text1 {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 190px;
+  margin-right: 140px;
+  color: #F1F1F1;
+}
+.our-numbers .d-flex .onezero {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 56px;
+  font-family: "Manrope", sans-serif;
+  color: #4FE9A4;
+}
+.our-numbers .d-flex .cool-text2 {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #F1F1F1;
+}
+.our-numbers .d-flex .twofour {
+  margin-left: 140px;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 56px;
+  font-family: "Manrope", sans-serif;
+  color: #4FE9A4;
+}
+.our-numbers .d-flex .cool-text3 {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #F1F1F1;
+  margin-left: 140px;
+}
+
+.cards {
+  margin-bottom: 120px;
+}
+.cards .container .row .card-1 .card img {
+  width: 300px;
+  height: 354px;
+}
+.cards .container .row .card-1 .card .card-body .card-header-text {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  font-family: "Manrope", sans-serif;
+  color: #000000;
+}
+.cards .container .row .card-1 .card .card-body .card-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+
+.our-values {
+  background-color: #0A2640;
+  padding-top: 122px;
+  padding-bottom: 120px;
+  margin-bottom: 122px;
+}
+.our-values .our-values-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 300px;
+}
+.our-values .our-values-header-text {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  font-family: "Manrope", sans-serif;
+  margin-left: 300px;
+}
+.our-values .our-values-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F1F1F1;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 60px;
+  margin-left: 300px;
+}
+.our-values .d-flex {
+  margin-left: 300px;
+}
+.our-values .d-flex img {
+  width: 150px;
+  height: 151px;
+  margin-right: 50px;
+  margin-bottom: 72px;
+}
+.our-values .d-flex .we-commited {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-family: "Manrope", sans-serif;
+}
+.our-values .d-flex .we-commited-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F1F1F1;
+  margin-bottom: 72px;
+}
+
+.enterprise {
+  background-color: #0A2640;
+  border-radius: 12px;
+  padding-bottom: 72px;
+  margin-bottom: 184px;
+}
+.enterprise .enterprise-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  padding-top: 72px;
+  margin-bottom: 48px;
+}
+.enterprise .search .search-box {
+  border-radius: 240px;
+  left: 24.83%;
+  right: 44.33%;
+  top: 66.75%;
+  bottom: 18.93%;
+  background-color: #FFFFFF;
+  width: 370px;
+  height: 56px;
+  margin-right: 24px;
+}
+.enterprise .search .search-box .search-text {
+  margin-left: 35px;
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+.enterprise .search .btn {
+  padding: 16px 56px;
+  border-radius: 56px;
+  left: 57.67%;
+  right: 24.83%;
+  top: 66.24%;
+  bottom: 18.41%;
+  background-color: #65E4A3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+.footer .container .row .footer1 img {
+  margin-bottom: 40px;
+}
+.footer .container .row .footer1 .foot-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #777777;
+  margin-bottom: 64px;
+}
+.footer .container .row .footer1 .foot-text-end {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer2 .landings-text {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+.footer .container .row .footer2 .home-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer2 .products-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer2 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer3 .company-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.footer .container .row .footer3 .home-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer3 .d-flex .careers-text {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  margin-right: 9px;
+}
+.footer .container .row .footer3 .d-flex button {
+  width: 72px;
+  height: 30px;
+  left: 911px;
+  top: 241px;
+  padding: 1px 14px;
+  border-radius: 120px;
+  background-color: #65E4A3;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.footer .container .row .footer3 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer4 .resources {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.footer .container .row .footer4 .blog-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer4 .products-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3px;
+}
+.footer .container .row .footer4 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=style2.css.map */

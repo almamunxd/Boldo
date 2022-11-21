@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+#preloader {
+  background: #000000 url(../image/load-gif\ \(1\).gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.navbar {
+  margin-bottom: 65px;
+  padding-top: 40px;
+}
+.navbar .container img {
+  height: 35px;
+  width: 145px;
+}
+.navbar .container .collapse .navbar-nav {
+  margin-right: 30px;
+}
+.navbar .container .collapse .navbar-nav .product {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+.navbar .container .collapse .navbar-nav .services {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+}
+.navbar .container .collapse .navbar-nav .about {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar .container .login {
+  width: 128px;
+  height: 40px;
+  color: #0A2640;
+  border-color: #0A2640;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar .container .login:hover {
+  background-color: #03081f;
+  color: white;
+  border: 2px solid #000000;
+}
+
+.blog {
+  margin-top: 70px;
+}
+.blog .blog-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+}
+.blog .blog-header {
+  font-family: "Manrope", sans-serif;
+  color: #0A2640;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 50px;
+}
+.blog .container {
+  margin-bottom: 96px;
+}
+.blog .container img {
+  width: 100%;
+}
+.blog .container .row {
+  margin-bottom: 70px;
+}
+.blog .container .row .blog-left img {
+  width: 550px;
+  height: 386px;
+}
+.blog .container .row .blog-right .d-flex .category-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+}
+.blog .container .row .blog-right .d-flex .date-text {
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  color: #777777;
+}
+.blog .container .row .blog-right .blog-description {
+  color: #000000;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 72px;
+}
+.blog .container .row .blog-right .d-flex .people-icon {
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+}
+.blog .container .row .blog-right .d-flex .people-name {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.blog-card-one .last-news {
+  color: #000000;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: "Manrope", sans-serif;
+  margin-left: 160px;
+}
+.blog-card-one .container {
+  margin-bottom: 124px;
+}
+.blog-card-one .container .row .card-one {
+  margin-right: px;
+}
+.blog-card-one .container .row .card-one .card .card-img-top {
+  width: 300px;
+  height: 209px;
+  border-radius: 12px;
+}
+.blog-card-one .container .row .card-one .card .card-body .d-flex .card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 12px;
+}
+.blog-card-one .container .row .card-one .card .card-body .d-flex .card-date {
+  margin-top: 1px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #777777;
+}
+.blog-card-one .container .row .card-one .card .card-body .card-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+.blog-card-one .container .row .card-one .card .card-body .user-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+.blog-card-one .container .row .card-one .card .card-body .card-name {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+.blog-card-one .container button {
+  margin-top: 90px;
+  width: 219px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 56px;
+  color: #0A2640;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #0A2640;
+}
+
+.enterprise {
+  background-color: #0A2640;
+  border-radius: 12px;
+  padding-bottom: 72px;
+  margin-bottom: 184px;
+}
+.enterprise .enterprise-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  padding-top: 72px;
+  margin-bottom: 48px;
+}
+.enterprise .search .search-box {
+  border-radius: 240px;
+  left: 24.83%;
+  right: 44.33%;
+  top: 66.75%;
+  bottom: 18.93%;
+  background-color: #FFFFFF;
+  width: 370px;
+  height: 56px;
+  margin-right: 24px;
+}
+.enterprise .search .search-box .search-text {
+  margin-left: 35px;
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+.enterprise .search .btn {
+  padding: 16px 56px;
+  border-radius: 56px;
+  left: 57.67%;
+  right: 24.83%;
+  top: 66.24%;
+  bottom: 18.41%;
+  background-color: #65E4A3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+.footer .container .row .footer1 img {
+  margin-bottom: 40px;
+}
+.footer .container .row .footer1 .foot-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #777777;
+  margin-bottom: 64px;
+}
+.footer .container .row .footer1 .foot-text-end {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer2 .landings-text {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+.footer .container .row .footer2 .home-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer2 .products-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer2 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer3 .company-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.footer .container .row .footer3 .home-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer3 .d-flex .careers-text {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  margin-right: 9px;
+}
+.footer .container .row .footer3 .d-flex button {
+  width: 72px;
+  height: 30px;
+  left: 911px;
+  top: 241px;
+  padding: 1px 14px;
+  border-radius: 120px;
+  background-color: #65E4A3;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.footer .container .row .footer3 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container .row .footer4 .resources {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.footer .container .row .footer4 .blog-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.footer .container .row .footer4 .products-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3px;
+}
+.footer .container .row .footer4 .services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=style3.css.map */
